@@ -3,7 +3,16 @@
 
 ###### tags:`Azure Automation`
 
-[toc]
+[![hackmd-github-sync-badge](https://hackmd.io/OK28GSpiQ2aOvDgYZeo4dQ/badge)](https://hackmd.io/OK28GSpiQ2aOvDgYZeo4dQ)
+
+- [Azure Automation Start/Stop VMs](#azure-automation-start-stop-vms)
+  * [1/ Create Automation account](#1-create-automation-account)
+  * [2/ Use Azure Managed Identities](#2-use-azure-managed-identities)
+  * [3/ Create Runbook](#3-create-runbook)
+    + [Create Runbook](#create-runbook)
+    + [Create Schedule](#create-schedule)
+    + [Additional Information](#additional-information)
+  * [Reference](#reference)
 
 本篇內容將透過Azure Automation account的PowerShell Runbook來實作VM自動開關機。
 ## 1/ Create Automation account
